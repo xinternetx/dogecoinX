@@ -276,7 +276,7 @@ void scrypt_1024_1_1_256_sp_generic(const char *input, char *output, char *scrat
         {
 	N = 2048;
 	}
-	fprintf(stdout, "Factor ENE scrypt.cpp fprintf es %i", N);
+	//fprintf(stdout, "Factor ENE scrypt.cpp fprintf es %i", N);
 	for (i = 0; i < N; i++) {
 		memcpy(&V[i * 32], X, 128);
 		xor_salsa8(&X[0], &X[16]);
