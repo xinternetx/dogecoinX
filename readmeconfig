@@ -4,4 +4,6 @@ factorene=1
 1 = 2048
 0 = 1024
 
+If there is an error on changing 2048 to 1024, use -reindex
+
 That's all.
